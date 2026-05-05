@@ -1,0 +1,21 @@
+Code Explanation
+
+1. How are products stored in your program?
+
+Products are stored as Product objects in a list called products. Each Product object keeps track of information like the product ID, name, category, quantity, reorder level, reorder quantity, price, vendor ID, and active status. Using objects makes it easier to keep all the information for one product together. When the data needs to be saved, each product is converted into a dictionary using the to_dict method.
+
+2. How are purchase orders connected to vendors and products?
+
+Purchase orders are connected to vendors by using the vendor ID. Each PurchaseOrder object stores the vendor_id so the program knows which vendor the order belongs to. Purchase orders are connected to products through the items_ordered list, where each item stores a product ID, quantity, and unit price. This lets one purchase order include multiple products.
+
+3. How does receiving a shipment change inventory?
+
+When a shipment is received, the program asks for the purchase order number and searches for that purchase order. If the order exists and has not already been received, the program loops through the ordered items and finds the matching products in inventory. It then adds the ordered quantity to each product’s current quantity. After that, the purchase order status changes to RECEIVED so it cannot be received twice.
+
+4. How does your JSON save/load process work?
+
+The save process converts products, vendors, and purchase orders into dictionaries and stores them in a JSON file. The load process reads that JSON file and recreates the Product, Vendor, and PurchaseOrder objects from the saved information. This lets the program keep data after it closes and continue using it the next time it runs. If the JSON file does not exist yet, the program starts with empty lists instead of crashing.
+
+5. What is one bug you fixed and how did you fix it?
+
+One bug I fixed was a GitHub permission problem when trying to push my code. My computer was still signed into an older GitHub account, so GitHub denied permission when I tried to push to the correct repository. I fixed it by removing the old GitHub credential from Windows Credential Manager and signing in again with the correct account. After that, I was able to push the project successfully.

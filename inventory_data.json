@@ -1,5 +1,426 @@
 {
-    "products": [],
-    "vendors": [],
-    "purchase_orders": []
+    "products": [
+        {
+            "product_id": "P001",
+            "name": "PlayStation 5",
+            "category": "Consoles",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 499.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P002",
+            "name": "Xbox Series X",
+            "category": "Consoles",
+            "quantity": 8,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 499.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P003",
+            "name": "Nintendo Switch",
+            "category": "Consoles",
+            "quantity": 12,
+            "reorder_level": 6,
+            "reorder_quantity": 10,
+            "unit_price": 299.99,
+            "vendor_id": "V003",
+            "active": true
+        },
+        {
+            "product_id": "P004",
+            "name": "Steam Deck",
+            "category": "Consoles",
+            "quantity": 6,
+            "reorder_level": 3,
+            "reorder_quantity": 5,
+            "unit_price": 399.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P005",
+            "name": "PS4",
+            "category": "Consoles",
+            "quantity": 4,
+            "reorder_level": 2,
+            "reorder_quantity": 5,
+            "unit_price": 299.99,
+            "vendor_id": "V005",
+            "active": true
+        },
+        {
+            "product_id": "P006",
+            "name": "PS5 Controller",
+            "category": "Accessories",
+            "quantity": 20,
+            "reorder_level": 10,
+            "reorder_quantity": 15,
+            "unit_price": 69.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P007",
+            "name": "Xbox Controller",
+            "category": "Accessories",
+            "quantity": 18,
+            "reorder_level": 10,
+            "reorder_quantity": 15,
+            "unit_price": 59.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P008",
+            "name": "Gaming Headset",
+            "category": "Accessories",
+            "quantity": 15,
+            "reorder_level": 7,
+            "reorder_quantity": 10,
+            "unit_price": 89.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P009",
+            "name": "Charging Dock",
+            "category": "Accessories",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 29.99,
+            "vendor_id": "V004",
+            "active": true
+        },
+        {
+            "product_id": "P010",
+            "name": "VR Headset",
+            "category": "Accessories",
+            "quantity": 5,
+            "reorder_level": 2,
+            "reorder_quantity": 5,
+            "unit_price": 299.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P011",
+            "name": "Graphics Card",
+            "category": "PC Parts",
+            "quantity": 7,
+            "reorder_level": 3,
+            "reorder_quantity": 5,
+            "unit_price": 699.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P012",
+            "name": "Gaming CPU",
+            "category": "PC Parts",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 399.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P013",
+            "name": "RAM 16GB",
+            "category": "PC Parts",
+            "quantity": 20,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 79.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P014",
+            "name": "SSD 1TB",
+            "category": "PC Parts",
+            "quantity": 15,
+            "reorder_level": 7,
+            "reorder_quantity": 15,
+            "unit_price": 99.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P015",
+            "name": "Power Supply",
+            "category": "PC Parts",
+            "quantity": 12,
+            "reorder_level": 6,
+            "reorder_quantity": 10,
+            "unit_price": 89.99,
+            "vendor_id": "V006",
+            "active": true
+        },
+        {
+            "product_id": "P016",
+            "name": "Call of Duty",
+            "category": "Games",
+            "quantity": 35,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 59.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P017",
+            "name": "FIFA 24",
+            "category": "Games",
+            "quantity": 30,
+            "reorder_level": 10,
+            "reorder_quantity": 20,
+            "unit_price": 59.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P018",
+            "name": "Zelda TOTK",
+            "category": "Games",
+            "quantity": 15,
+            "reorder_level": 8,
+            "reorder_quantity": 15,
+            "unit_price": 69.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P019",
+            "name": "Elden Ring",
+            "category": "Games",
+            "quantity": 18,
+            "reorder_level": 9,
+            "reorder_quantity": 15,
+            "unit_price": 59.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P020",
+            "name": "Minecraft",
+            "category": "Games",
+            "quantity": 30,
+            "reorder_level": 15,
+            "reorder_quantity": 25,
+            "unit_price": 29.99,
+            "vendor_id": "V001",
+            "active": true
+        },
+        {
+            "product_id": "P021",
+            "name": "24in Gaming Monitor",
+            "category": "Monitors",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 10,
+            "unit_price": 199.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P022",
+            "name": "27in Gaming Monitor",
+            "category": "Monitors",
+            "quantity": 8,
+            "reorder_level": 4,
+            "reorder_quantity": 8,
+            "unit_price": 299.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P023",
+            "name": "32in Curved Monitor",
+            "category": "Monitors",
+            "quantity": 6,
+            "reorder_level": 3,
+            "reorder_quantity": 6,
+            "unit_price": 399.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P024",
+            "name": "144Hz Monitor",
+            "category": "Monitors",
+            "quantity": 7,
+            "reorder_level": 3,
+            "reorder_quantity": 7,
+            "unit_price": 249.99,
+            "vendor_id": "V002",
+            "active": true
+        },
+        {
+            "product_id": "P025",
+            "name": "4K Monitor",
+            "category": "Monitors",
+            "quantity": 5,
+            "reorder_level": 2,
+            "reorder_quantity": 5,
+            "unit_price": 499.99,
+            "vendor_id": "V002",
+            "active": true
+        }
+    ],
+    "vendors": [
+        {
+            "vendor_id": "V001",
+            "vendor_name": "GameSupply Co",
+            "contact_name": "John Smith",
+            "phone": "555-1111",
+            "email": "gamesupply@email.com",
+            "address": "123 Market St"
+        },
+        {
+            "vendor_id": "V002",
+            "vendor_name": "TechWorld",
+            "contact_name": "Sarah Lee",
+            "phone": "555-2222",
+            "email": "techworld@email.com",
+            "address": "456 Tech Ave"
+        },
+        {
+            "vendor_id": "V003",
+            "vendor_name": "ConsoleHub",
+            "contact_name": "Mike Brown",
+            "phone": "555-3333",
+            "email": "consolehub@email.com",
+            "address": "789 Gamer Rd"
+        },
+        {
+            "vendor_id": "V004",
+            "vendor_name": "AccessoryZone",
+            "contact_name": "Lisa White",
+            "phone": "555-4444",
+            "email": "accessories@email.com",
+            "address": "321 Gear St"
+        },
+        {
+            "vendor_id": "V005",
+            "vendor_name": "RetroGames",
+            "contact_name": "Tom Green",
+            "phone": "555-5555",
+            "email": "retro@email.com",
+            "address": "654 Classic Blvd"
+        },
+        {
+            "vendor_id": "V006",
+            "vendor_name": "PCParts Pro",
+            "contact_name": "Alex Black",
+            "phone": "555-6666",
+            "email": "pcparts@email.com",
+            "address": "987 Build Ln"
+        }
+    ],
+    "purchase_orders": [
+        {
+            "po_number": "PO001",
+            "vendor_id": "V001",
+            "date_created": "2026-05-04",
+            "items_ordered": [
+                {
+                    "product_id": "P016",
+                    "quantity": 10,
+                    "unit_price": 59.99
+                },
+                {
+                    "product_id": "P017",
+                    "quantity": 10,
+                    "unit_price": 59.99
+                }
+            ],
+            "total_cost": 1199.8,
+            "status": "RECEIVED"
+        },
+        {
+            "po_number": "PO002",
+            "vendor_id": "V003",
+            "date_created": "2026-05-04",
+            "items_ordered": [
+                {
+                    "product_id": "P001",
+                    "quantity": 5,
+                    "unit_price": 499.99
+                },
+                {
+                    "product_id": "P002",
+                    "quantity": 3,
+                    "unit_price": 499.99
+                }
+            ],
+            "total_cost": 3999.92,
+            "status": "OPEN"
+        },
+        {
+            "po_number": "PO003",
+            "vendor_id": "V004",
+            "date_created": "2026-05-04",
+            "items_ordered": [
+                {
+                    "product_id": "P006",
+                    "quantity": 10,
+                    "unit_price": 69.99
+                },
+                {
+                    "product_id": "P008",
+                    "quantity": 5,
+                    "unit_price": 89.99
+                }
+            ],
+            "total_cost": 1149.85,
+            "status": "OPEN"
+        },
+        {
+            "po_number": "PO004",
+            "vendor_id": "V006",
+            "date_created": "2026-05-04",
+            "items_ordered": [
+                {
+                    "product_id": "P011",
+                    "quantity": 2,
+                    "unit_price": 699.99
+                },
+                {
+                    "product_id": "P012",
+                    "quantity": 3,
+                    "unit_price": 399.99
+                }
+            ],
+            "total_cost": 2599.95,
+            "status": "OPEN"
+        },
+        {
+            "po_number": "PO005",
+            "vendor_id": "V002",
+            "date_created": "2026-05-04",
+            "items_ordered": [
+                {
+                    "product_id": "P021",
+                    "quantity": 4,
+                    "unit_price": 199.99
+                },
+                {
+                    "product_id": "P022",
+                    "quantity": 3,
+                    "unit_price": 299.99
+                }
+            ],
+            "total_cost": 1699.93,
+            "status": "OPEN"
+        }
+    ]
 }

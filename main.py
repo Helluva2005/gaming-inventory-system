@@ -10,57 +10,81 @@ def main_menu():
 
     while True:
         print("\n=== Gaming Store Inventory System ===")
-        print("1. Add Product")
-        print("2. View Products")
-        print("3. Search Product by ID")
-        print("4. Search Product by Name")
-        print("5. View Low Stock Products")
-        print("6. Create Purchase Order")
-        print("7. Receive Shipment")
-        print("8. View Purchase Orders")
-        print("9. Full Inventory Report")
-        print("10. Low Stock Report")
-        print("11. Total Inventory Value")
-        print("12. Open Purchase Orders")
-        print("13. Received Purchase Orders")
-        print("14. Save Data")
-        print("15. Exit")
+        print("1. Add Vendor")
+        print("2. View Vendors")
+        print("3. Add Product")
+        print("4. View Products")
+        print("5. Sort Products by Name")
+        print("6. Sort Products by Quantity")
+        print("7. Sort Products by Price")
+        print("8. Search Product by ID")
+        print("9. Search Product by Name")
+        print("10. Search Product by Category")
+        print("11. View Low Stock Products")
+        print("12. Edit Product")
+        print("13. Deactivate Product")
+        print("14. Create Purchase Order")
+        print("15. Receive Shipment")
+        print("16. View Purchase Orders")
+        print("17. Full Inventory Report")
+        print("18. Low Stock Report")
+        print("19. Total Inventory Value")
+        print("20. Open Purchase Orders")
+        print("21. Received Purchase Orders")
+        print("22. Save Data")
+        print("23. Exit")
 
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            add_product()
+            add_vendor()
         elif choice == "2":
-            view_products()
+            view_vendors()
         elif choice == "3":
-            search_product_by_id()
+            add_product()
         elif choice == "4":
-            search_product_by_name()
+            view_products()
         elif choice == "5":
-            display_low_stock_products()
+            sort_products_by_name()
         elif choice == "6":
-            create_purchase_order()
+            sort_products_by_quantity()
         elif choice == "7":
-            receive_shipment()
+            sort_products_by_price()
         elif choice == "8":
-            view_purchase_orders()
+            search_product_by_id()
         elif choice == "9":
-            full_inventory_report()
+            search_product_by_name()
         elif choice == "10":
-            low_stock_report()
+            search_product_by_category()
         elif choice == "11":
-            total_inventory_value_report()
+            display_low_stock_products()
         elif choice == "12":
-            open_purchase_orders_report()
+            edit_product()
         elif choice == "13":
-            received_purchase_orders_report()
+            deactivate_product()
         elif choice == "14":
+            create_purchase_order()
+        elif choice == "15":
+            receive_shipment()
+        elif choice == "16":
+            view_purchase_orders()
+        elif choice == "17":
+            full_inventory_report()
+        elif choice == "18":
+            low_stock_report()
+        elif choice == "19":
+            total_inventory_value_report()
+        elif choice == "20":
+            open_purchase_orders_report()
+        elif choice == "21":
+            received_purchase_orders_report()
+        elif choice == "22":
             save_data(
                 inventory_manager.products,
                 inventory_manager.vendors,
                 inventory_manager.purchase_orders
             )
-        elif choice == "15":
+        elif choice == "23":
             save_data(
                 inventory_manager.products,
                 inventory_manager.vendors,
